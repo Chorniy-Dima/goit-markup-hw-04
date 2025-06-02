@@ -361,7 +361,7 @@ img {
 .portfolio-section {
     background-color: #FFFFFF;
     width: calc((100% - 48px) / 3);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-pic {
@@ -391,11 +391,7 @@ img {
     transform: translateY(0%);
 }
 
-.portfolio-box {
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.portfolio-section:hover .portfolio-box {
+.portfolio-section:hover {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
@@ -467,7 +463,6 @@ img {
         letter-spacing: 0.02em;
         color: #f4f4fd;
         max-width: 264px;
-        margin-bottom: 16px;
 }
 
 .footer-links {
@@ -505,4 +500,5 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #fff;
+    margin-bottom: 16px;
 }
