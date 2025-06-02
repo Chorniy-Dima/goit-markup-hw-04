@@ -90,7 +90,7 @@ img {
     position: relative;
 }
 
-.nav-link.current::before {
+.nav-link.current::after {
     content: '';
     position: absolute;
     left: 0;
